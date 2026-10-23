@@ -77,6 +77,9 @@ export const ProductsPage: React.FC = () => {
                     alt={item.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80';
+                    }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-brand-navyDark/90 via-transparent to-transparent opacity-80" />
                   <div className="absolute top-3 left-3 bg-brand-navy/90 text-white text-[10px] font-mono px-2 py-0.5 rounded border border-white/20">
@@ -167,6 +170,10 @@ export const ProductsPage: React.FC = () => {
                 src={selectedProduct.image}
                 alt={selectedProduct.name}
                 className="w-full h-full object-cover"
+                loading="lazy"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80';
+                }}
               />
               <div className="absolute bottom-2 left-2 text-[10px] text-white/90 bg-black/60 px-2 py-0.5 rounded font-mono">
                 Representative Industrial Component

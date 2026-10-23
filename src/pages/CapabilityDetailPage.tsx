@@ -94,6 +94,10 @@ export const CapabilityDetailPage: React.FC = () => {
                   src={capability.image}
                   alt={capability.title}
                   className="w-full h-72 object-cover"
+                  loading="lazy"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80';
+                  }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-navyDark/80 via-transparent to-transparent" />
                 <div className="absolute bottom-3 left-3 right-3 text-white text-xs font-mono flex justify-between items-center bg-black/60 px-3 py-1.5 rounded">
@@ -133,6 +137,10 @@ export const CapabilityDetailPage: React.FC = () => {
                   src={capability.secondaryImage}
                   alt={`${capability.title} detailed tooling`}
                   className="w-full h-48 object-cover"
+                  loading="lazy"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=1000&q=80';
+                  }}
                 />
                 <div className="absolute bottom-2 left-2 text-[10px] text-white/90 bg-black/60 px-2 py-0.5 rounded font-mono">
                   Component Detail (Representative)

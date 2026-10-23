@@ -62,7 +62,7 @@ export const PRODUCTS: ProductItem[] = [
       'Robust external enclosures and protective terminal covers molded in impact-resistant ABS and Polycarbonate (PC) featuring integrated sealing grooves and molded bosses.',
     materialHighlight: 'Polycarbonate (PC) / ABS Alloy',
     applications: ['Electrical junction enclosures', 'Instrumentation covers', 'Control panel bezels', 'Industrial display surrounds'],
-    image: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=800&q=80',
     processSlug: 'plastic-injection-molding',
   },
   {
@@ -74,7 +74,7 @@ export const PRODUCTS: ProductItem[] = [
       'Engineered mold core and cavity sets manufactured from pre-hardened alloy tool steel, featuring balanced cooling channels and hardened guide pin bushings for high-volume repeat runs.',
     materialHighlight: 'P20 / H13 Equivalent Die Steels',
     applications: ['Thermoplastic production molds', 'Multi-impression die assemblies', 'Interchangeable insert cassettes'],
-    image: 'https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?auto=format&fit=crop&w=800&q=80',
     processSlug: 'mold-die-development',
   },
   {
@@ -86,7 +86,7 @@ export const PRODUCTS: ProductItem[] = [
       'Application-specific continuous profile sections extruded through custom dies with tight cross-sectional tolerance control and consistent wall thickness.',
     materialHighlight: 'Rigid & Plasticized PVC / Polypropylene (PP)',
     applications: ['Panel edge trims', 'Wiring raceway covers', 'Conduit guide sections', 'Equipment perimeter sealing'],
-    image: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1616401784845-180882ba9ba8?auto=format&fit=crop&w=800&q=80',
     processSlug: 'plastic-extrusion',
   },
   {
@@ -122,7 +122,7 @@ export const PRODUCTS: ProductItem[] = [
       'Precision punched, pierced, and formed sheet metal press parts produced to customer drawings with burr-free edges and accurate hole-center distances.',
     materialHighlight: 'SS 304 / CRCA Mild Steel / Brass',
     applications: ['Equipment mounting clips', 'Internal chassis framing', 'Earthing clamps', 'Structural support brackets'],
-    image: 'https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=800&q=80',
     processSlug: 'sheet-metal-stamping',
   },
   {
@@ -134,7 +134,7 @@ export const PRODUCTS: ProductItem[] = [
       'Symmetrical cylindrical metal parts manufactured with tight diametrical tolerances, precision chamfers, and smooth bearing surface finishes.',
     materialHighlight: 'Free-Cutting Brass / Mild Steel / SS 303',
     applications: ['Guide shafts', 'Spacing collars', 'Hinge pins', 'Custom mechanical couplings'],
-    image: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=800&q=80',
     processSlug: 'precision-turned-components',
   },
   {
@@ -146,7 +146,7 @@ export const PRODUCTS: ProductItem[] = [
       'Turned brass inserts featuring aggressive diamond knurls and undercut retention grooves specifically designed to be positioned in plastic injection molds for high pull-out strength.',
     materialHighlight: 'IS 319 / CW614N Brass Grade',
     applications: ['Injection mold core inserts', 'Molded-in fastener anchors', 'Terminal post inserts', 'Threaded bosses'],
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?auto=format&fit=crop&w=800&q=80',
     processSlug: 'precision-turned-components',
   },
 ];

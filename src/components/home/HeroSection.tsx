@@ -11,6 +11,9 @@ export const HeroSection: React.FC = () => {
           src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=2000&q=85"
           alt="Precision mold tooling and industrial injection molding machinery"
           className="w-full h-full object-cover object-center opacity-25 scale-105 transition-transform duration-1000"
+          onError={(e) => {
+            (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=2000&q=85';
+          }}
         />
         {/* Gradients to ensure pristine contrast and technical aesthetic */}
         <div className="absolute inset-0 bg-gradient-to-r from-brand-navyDark via-brand-navyDark/90 to-brand-navy/80" />

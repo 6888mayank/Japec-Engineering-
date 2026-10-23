@@ -32,7 +32,7 @@ export const CAPABILITIES: Capability[] = [
     metaDescription:
       'Precision plastic injection molding for industrial components, housings, and custom enclosures using engineering polymers in Rabale MIDC, Navi Mumbai.',
     image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80',
-    secondaryImage: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1000&q=80',
+    secondaryImage: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1000&q=80',
     materials: [
       'PP — Polypropylene',
       'ABS',
@@ -123,7 +123,7 @@ export const CAPABILITIES: Capability[] = [
       'Developing application-specific dies and molds for plastic, thermoset, and extrusion-related manufacturing requirements.',
     metaDescription:
       'Precision mold and die development for injection molding, thermoset compression, and plastic extrusion tooling in Navi Mumbai.',
-    image: 'https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?auto=format&fit=crop&w=1200&q=80',
     secondaryImage: 'https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=1000&q=80',
     materials: [
       'Pre-hardened Mold Steels',
@@ -434,8 +434,8 @@ export const CAPABILITIES: Capability[] = [
       'Manufacturing sheet metal press parts and stamped metal components according to customer drawings and dimensional requirements.',
     metaDescription:
       'Custom sheet metal press parts and stamped metal components for industrial applications in Rabale MIDC, Navi Mumbai.',
-    image: 'https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=80',
-    secondaryImage: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1200&q=80',
+    secondaryImage: 'https://images.unsplash.com/photo-1580983218765-f663bec07b37?auto=format&fit=crop&w=1000&q=80',
     materials: [
       'Mild Steel (CRCA / HR sheets)',
       'Stainless Steel (SS 304, SS 316, SS 202 grades)',
@@ -513,8 +513,8 @@ export const CAPABILITIES: Capability[] = [
       'Manufacturing turned metal components that can serve as inserts and functional elements in plastic injection-molded products.',
     metaDescription:
       'Precision turned metal components and threaded inserts for plastic injection molding and industrial assemblies in Navi Mumbai.',
-    image: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1200&q=80',
-    secondaryImage: 'https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=1200&q=80',
+    secondaryImage: 'https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?auto=format&fit=crop&w=1000&q=80',
     materials: [
       'Brass (Free Cutting Brass grades, CW614N / IS 319)',
       'Mild Steel & Carbon Steels',

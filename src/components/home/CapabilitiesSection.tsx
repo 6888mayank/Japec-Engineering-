@@ -52,6 +52,9 @@ export const CapabilitiesSection: React.FC = () => {
                     alt={cap.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80';
+                    }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-brand-navyDark/80 via-transparent to-black/20" />
 

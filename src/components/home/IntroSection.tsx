@@ -75,9 +75,13 @@ export const IntroSection: React.FC = () => {
                 <div className="relative h-64 sm:h-72 overflow-hidden bg-brand-navyDark flex flex-col items-center justify-center p-6">
                   {/* Background industrial machine photograph */}
                   <img
-                    src="https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1000&q=80"
+                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1000&q=80"
                     alt="Precision tooling and industrial component manufacturing"
                     className="absolute inset-0 w-full h-full object-cover opacity-30 transition-transform duration-700 hover:scale-105"
+                    loading="lazy"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80';
+                    }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-brand-navyDark via-brand-navyDark/70 to-brand-navyDark/50 pointer-events-none" />
                   <div className="absolute inset-0 bg-tech-grid-dark opacity-35 pointer-events-none" />
